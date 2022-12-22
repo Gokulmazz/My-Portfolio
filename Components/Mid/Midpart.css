@@ -1,0 +1,75 @@
+
+.profilepic
+{
+
+    margin-left: 50px;
+    height: 50vh;
+    width: 40vh;
+    margin-top: -10vh;
+    margin-bottom: 20vh;
+    box-shadow: 2px 2px 15px black;
+}
+
+.about-title
+{
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 3rem;
+    color: black;
+    text-shadow: -3px 0px 0px rgb(234, 232, 230);
+    
+   
+}
+
+.mid-out-container
+{
+    filter: drop-shadow( 10px 8px 10px black);
+}
+
+.mid-container
+{
+    background-image: linear-gradient(90deg,#4facfe 0,#00f2fe);
+    padding: 20px;
+    height: 100vh;
+    width: 107vw;
+    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 84%);  
+}
+
+.mid-para
+{
+    margin-top: -60vh;
+    margin-left: 30vw;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 7vh;
+    font-family: "Trirong", serif;
+    /* text-shadow: 3px 3px 1px white; */
+}
+
+.mid-button
+{
+    
+    border-radius: 5px;
+    border-style: none;
+    padding:1vh 2vh;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px black;
+    font-family: none;
+    color:white;
+    text-decoration: none;
+    background: linear-gradient(to right,white 50%,   black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+    text-shadow: none;
+}
+
+
+.mid-button:hover{
+    background-position: left bottom;
+    color:black;
+
+}
+

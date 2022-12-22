@@ -1,0 +1,69 @@
+.contact-div
+{
+   margin-top: -20vh;
+   height: 90vh;
+   background-image: linear-gradient(90deg,#4facfe 0,#00f2fe);
+   clip-path: polygon(0 26%, 100% 44%, 100% 98%, 0% 100%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+.contact-head
+{
+    font-size: 3rem;
+    color: white;
+    margin-top: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, serif;
+}
+
+.contact-anchor
+{
+   
+    margin-top: 40vh;
+    margin-left: -29.9vh;
+    text-decoration: none;
+    border-radius: 10px;
+    padding:5px 5px;
+    height:6vh;
+    width: 25vh;
+    background: linear-gradient(to right, rgb(75, 175, 59) 50%,   white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+    
+}
+
+.contact-inner-anchor
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 7px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer-contact
+{
+    filter: drop-shadow( 10px 10px 3px black);
+    
+}
+
+.contact-anchor:hover{
+    background-position: left bottom;
+    color:white;
+
+}
+
+
+
+
+  
